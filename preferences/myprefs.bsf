@@ -1,0 +1,70 @@
+
+#--------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
+#-------------------------------------GLP2-e Admin-------------------------------------
+#-------------------------------------Version 2.0--------------------------------------
+#----------------------------Credits: David González Velasco---------------------------
+#--------------------------Copyright: Boos Technical Lighting--------------------------
+#--------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
+#-----------------------------------Preferences file-----------------------------------
+#--------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
+
+class mainProgramPrefs(object):
+	def __init__(self):
+
+		#User data
+		self.usernumber = '5'
+		self.username = 'David'
+		self.usersurname = 'González Velasco'
+		self.useremail = 'david@booslight.com'
+		self.userpassword = 'abcdefghijklm'
+
+
+		#Serial port data
+		self.testmachineserialport = 'COM2'
+		self.testmachineserialbauds = '9600'
+		self.testmachineserialparity = 'N'
+		self.testmachineserialbytesize = '1'
+
+		self.luxometerserialport = 'COM4'
+		self.luxometerserialbauds = '9600'
+		self.luxometerserialparity = 'EVEN'
+		self.luxometerserialbytesize = '1'
+
+		self.relaycardserialport = 'COM1'
+		self.relaycardserialbauds = '9600'
+		self.relaycardserialparity = 'N'
+		self.relaycardserialbytesize = '1'
+
+		
+		#Database data
+		self.serverip = '192.168.41.156'
+
+		#Language data
+		self.languageselected = 'ENG'
+
+		#Camera data
+		self.cameraenabled = '1'
+		self.onscreenresult = '1'
+		self.savecameraresults = '1' 
+
+		#Printers data
+		self.luminaryprinter = 'ZEBRA 1'
+		self.luminaryenabled = '1'
+		self.luminaryprintingmode = 'Automatic'
+
+		self.packagingprinter = 'DYMO 1'
+		self.packagingenabled = '1'
+
+		self.userguideprinter = 'HP LASERJET 1'
+		self.userguideenabled = '1'
+
+
+global myprefs
+myprefs = mainProgramPrefs()
+

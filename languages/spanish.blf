@@ -1,0 +1,203 @@
+'''
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+-------------------------------------GLP2-e Admin-------------------------------------
+-------------------------------------Version 2.0--------------------------------------
+---------------------------Credits: David González Velasco---------------------------
+--------------------------Copyright: Boos Technical Lighting--------------------------
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+-------------------------------Language File: Spanish---------------------------------
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+
+'''
+
+#Main Title
+mtstring1 = 'Gestor de producción'
+#Main description
+mdstring1 = 'Boos Technical Lighting S.L.'
+
+#System messages
+sysmesstring1 = 'Volver al menú principal'
+
+
+#User
+mmstring1 = 'Usuario'
+mmdescstring1 = 'Gestiona la información de tu usuario y las opciones relacionadas.'
+
+
+#Account Info
+sm1string1 = 'Información personal'
+
+#More options
+sm1string2 = 'Más opciones'
+
+
+
+
+#Order testing
+mmstring2 = 'Ensayo de órdenes'
+mmdescstring2 = 'Comprobación y validación del correcto funcionamiento de las luminarias.'
+
+
+#DALI Testing
+sm2string1 = 'Ensayo de Configurador'
+
+#SIMPLESET Testing
+sm2string2 = 'Ensayo de ETO'
+
+
+
+
+
+#Label printing
+mmstring3 = 'Impresión de etiquetas'
+mmdescstring3 = 'Diseño e impresión manual de etiquetas de luminarias, empaquetado y otros tipos.'
+
+
+#Luminary labels
+sm3string1 = 'Etiquetas de luminaria'
+
+#Packaging labels
+sm3string2 = 'Etiquetas de empaquetado'
+
+#Globaltronic labels
+sm3string3 = 'Etiquetas de Globaltronic'
+
+#Generic labels
+sm3string4 = 'Etiquetas genéricas'
+
+
+
+
+#Single testing
+mmstring4 = 'Ensayo individual'
+mmdescstring4 = 'Comprobación y validación de luminarias individualmente.'
+
+
+#DALI Testing
+sm4string1 = 'Ensayo DALI'
+
+#SIMPLESET Testing
+sm4string2 = 'Ensayo SIMPLESET'
+
+#VIAPAQ Testing
+sm4string3 = 'Ensayo VIAPAQ'
+
+
+
+
+#Drivers
+mmstring5 = 'Drivers'
+mmdescstring5 = 'Generación manual de ficheros de programación para PHILIPS, VIAPAQ, ELT, etc...'
+
+
+#Philips manual program generation
+sm5string1 = 'Generación manual PHILIPS'
+
+#VIAPAQ manual program generation
+sm5string2 = 'Generación manual VIAPAQ'
+
+#Name-based program generation
+sm5string3 = 'Generación basada en nombre'
+
+
+
+
+#Production
+mmstring6 = 'Producción'
+mmdescstring6 = 'Comprobar resultados de los ensayos y resultados generales de la producción.'
+
+
+#Diary results
+sm6string1 = 'Resultados diarios'
+
+#Weekly results
+sm6string2 = 'Resultados semanales'
+
+#Monthly results
+sm6string3 = 'Resultados mensuales'
+
+#Annual results
+sm6string4 = 'Resultados anual'
+
+#Custom search
+sm6string5 = 'Búsqueda personalizada'
+
+
+
+
+#Luminary information
+mmstring7 = 'Información de luminaria'
+mmdescstring7 = 'Modificar datos de la luminaria o comprobar si los datos y la descripción son correctos.'
+
+
+#Check luminary data
+sm7string1 = 'Comprobar información de luminaria'
+
+#Modify luminary open options
+sm7string2 = 'Modificar opciones abiertas luminaria'
+
+
+
+
+#System preferences
+mmstring8 = 'Preferencias del sistema'
+mmdescstring8 = 'Editar los ajustes del sistema para que todo funcione correctamente.'
+
+
+#Serial port
+sm8string1 = 'Puerto serie'
+
+#Database
+sm8string2 = 'Base de datos'
+
+#Language
+sm8string3 = 'Idioma'
+
+#Camera
+sm8string4  = 'Cámara'
+
+#Printers
+sm8string5 = 'Impresoras'
+
+
+
+
+#Other actions
+mmstring9 = 'Otras acciones'
+mmdescstring9 = 'Miscelánea.'
+
+
+#Check camera
+sm9string1 = 'Comprobar cámara'
+
+#Check luxometer
+sm9string2 = 'Comprobar luxómetro'
+
+#Test machine actions
+sm9string3 = 'Acciones de la máquina de ensayo'
+
+#Test w/o machine (Admin. required)
+sm9string4  = 'Ensayar sin máquina de ensayo (Req.Admin.)'
+
+#Incidences
+sm9string5 = 'Incidencias'
+
+
+
+
+#Help
+mmstring10 = 'Ayuda'
+mmdescstring10 = 'Preguntas frecuentes y manual de usuario.'
+
+
+#FAQ
+sm10string1 = 'Preguntas frecuentes'
+
+#User guide
+sm10string2 = 'Manual de usuario'

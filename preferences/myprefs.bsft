@@ -1,0 +1,64 @@
+
+#--------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
+#-------------------------------------GLP2-e Admin-------------------------------------
+#-------------------------------------Version 2.0--------------------------------------
+#----------------------------Credits: David González Velasco---------------------------
+#--------------------------Copyright: Boos Technical Lighting--------------------------
+#--------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
+#-------------------------------Template Preferences file------------------------------
+#--------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------
+
+class mainProgramPrefs(object):
+	def __init__(self):
+		#User data
+		self.usernumber = '{0}'
+		self.username = '{1}'
+		self.usersurname = '{2}'
+		self.useremail = '{3}'
+		self.userpassword = '{4}'
+
+
+		#Serial port data
+		self.testmachineserialport = '{5}'
+		self.testmachineserialbauds = '{6}'
+		self.testmachineserialparity = '{7}'
+		self.testmachineserialbytesize = '{8}'
+
+		self.luxometerserialport = '{9}'
+		self.luxometerserialbauds = '{10}'
+		self.luxometerserialparity = '{11}'
+		self.luxometerserialbytesize = '{12}'
+
+		self.relaycardserialport = '{13}'
+		self.relaycardserialbauds = '{14}'
+		self.relaycardserialparity = '{15}'
+		self.relaycardserialbytesize = '{16}'
+
+		
+		#Database data
+		self.serverip = '{17}'
+
+		#Language data
+		self.languageselected = '{18}'
+
+		#Camera data
+		self.cameraenabled = '{19}'
+		self.onscreenresult = '{20}'
+		self.savecameraresults = '{21}' 
+
+		#Printers data
+		self.luminaryprinter = '{22}'
+		self.luminaryenabled = '{23}'
+		self.luminaryprintingmode = '{24}'
+
+		self.packagingprinter = '{25}'
+		self.packagingenabled = '{26}'
+
+		self.userguideprinter = '{27}'
+		self.userguideenabled = '{28}'
